@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+   color: blueviolet; 
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+/* header {width: 100%;} h1 {width: 50%;}
+h1 takes up 50% of 100% of the header */
+
+main {
+    width: 50vw;
+    background-color: skyblue;
+    font-size: 2rem;
+
+}
+p {
+    font-size: 2rem;
+    width: 40ch;
+} 
+/* rem root size set by browser, 1rem is default em looks at element itself, use on margin or padding . use with buttons, these two- font-size: 3rem;
+    padding: 0.5em; */
+    /* width use ch to wrap */

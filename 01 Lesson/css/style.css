@@ -1,0 +1,42 @@
+/* * {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid red;
+} */
+/* html {
+    font-size: 50px;
+}
+element selector like body, least specific, class is more specififc, dont wanna use but id selector is most specfic */
+body {
+    font-size: 22px;
+    /* border: 3px solid black; */
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+    /* !important */
+}
+
+p {
+    color: red;
+}
+/* classes over ride elements.class has more specificity than an element */
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
+/* id should only be used once. best to use classes. rarely shold you use an id in yur css file. try to keep ids out of css */

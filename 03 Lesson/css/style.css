@@ -1,0 +1,19 @@
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #ffefd5;
+    color: rgb(0, 0, 0);
+}
+
+
+p {
+    /* color: rgba(0,0,0,5); */
+    color: rgba(142, 23, 197, 0.745)
+    /* two reds, 0 green, 0 blue */
+    /* #00FF00 green 0 red, two green, 0 blue */
+    /* hsl hue saturation lightness */
+}
+
+/* coolers.co pick color palletes and check contrast ratio
+webaim.org accessibility checker */

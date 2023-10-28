@@ -1,0 +1,28 @@
+/* Typography is the way that text is arranged and presented. */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;;
+    /* root em, default browser is 16px so 2rem is 32pixels */
+}
+
+p {
+    line-height: 1.5;
+    /* text-decoration: none; */
+    /* text-transform: lowercase; */
+    /* text-align: justify */
+    /* makes right uniform in line; */
+    /* text-align: right; */
+    /* line-height: 1.5; */
+    /*letter-spacing: 1em;*/
+    /* letter-spacing: 0.1em; */
+    /* word-spacing: 0.1em; */
+    /* font-weight:bolder; */
+    /* font-style: oblique; */
+    }
+
+/* if you have a few words you want to cross out, use line throughin a span element with a class 
+text-decoration: line-through;
+ */
